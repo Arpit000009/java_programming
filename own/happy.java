@@ -28,5 +28,6 @@ public class happy {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(isHappy(n));
+        sc.close();
     }
 }
