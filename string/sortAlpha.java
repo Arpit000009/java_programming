@@ -15,6 +15,7 @@ public class sortAlpha {
             else{
                 mpp.put(ch,1);
             }
+        }
             
             for(int j=0;j<26;j++){
                 char c = (char)(j+97);
@@ -24,14 +25,14 @@ public class sortAlpha {
                         result= result+c;
                         times--;
                     }
-                }
+                
             }
         }
         return result;
     }
 
     public static void main(String[] args) {
-        String str = "aabbddggcca";
+        String str = "fedcba";
         System.out.println(sort(str));
     }
 }
