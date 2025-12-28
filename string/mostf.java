@@ -6,6 +6,7 @@ import java.util.Map.Entry;
 public class mostf {
     public static void main(String[] args) {
         String str = "IAMARPIT";
+        int sum;
 
         HashMap<Character, Integer> mpp = new HashMap<>();
 
